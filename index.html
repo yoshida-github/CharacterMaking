@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+	<meta charset="shift_jis">
+	<title>Character Making</title>
+    </head>
+
+    <body>
+	<script src="set_param.js"></script>
+	<script src="input_func.js"></script>
+
+	<!-- ========== 出力場所 ==========
+	<!-- ----- メイン ----- -->
+	<div style="position:absolute; top:0px; left:0px;">
+	    <section id="MainSqreen"></section>
+	</div>
+	<!-- ----- 基本 ----- -->
+	<div style="position:absolute; top:0px; left:500px;">
+	    <section id="form_param"></section>
+	</div>
+	<!-- ----- 能力 ----- -->
+	<div style="position:absolute; top:350px; left:500px;">
+	    <section id="form_ability"></section>
+	</div>
+	<!-- ----- 技能 ----- -->
+	<div style="position:absolute; top:0px; left:700px;">
+	    <section id="form_skill_1"></section>
+	</div>
+	<div style="position:absolute; top:0px; left:900px;">
+	    <section id="form_skill_2"></section>
+	</div>
+	<div style="position:absolute; top:0px; left:1100px;">
+	    <section id="form_skill_3"></section>
+	</div>
+	<!-- ----- 技能値変更 ----- -->
+	<div style="position:absolute; top:0px; left:300px;">
+	    <section id="form_skill_point"></section>
+	</div>
+
+
+
+	<script>
+            InFc_param("form_param");
+            InFc_ability("form_ability");
+            InFc_skill_1("form_skill_1");
+            InFc_skill_2("form_skill_2");
+            InFc_skill_3("form_skill_3");
+            InFc_skill_point("form_skill_point");
+	</script>
+
+
+
+    </body>	
+
+
+</html>
