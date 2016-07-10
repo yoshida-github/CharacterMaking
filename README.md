@@ -1,5 +1,2 @@
-"# characterMaking" 
-# CharacterMaking
-# CharacterMaking
-# CharacterMaking
-# CharacterMaking
+# characterMaking 
+readme.txt参照してください
